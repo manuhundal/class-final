@@ -1,0 +1,126 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(9, 61, 109, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.logo {
+    width: 103px;
+    height: 80px;
+}
+.list-item {
+    display: inline-block;
+    /*text-decoration: none;*/
+    /*color: yellow;*/
+}
+.list-item a {
+    text-decoration: none;
+    color: yellow;
+}
+.list-item a:hover {
+    color: red;
+    background-color: blue;
+}
+.nav-list {
+    height: 70%;
+    width: 200px;
+    float: right;
+    text-align: center;
+}
+.hero-img {
+    background-image: url(../img/house.jpeg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    top: 49px;
+    background-repeat: no-repeat;
+    background-color: rgb(9, 61, 109, 0.5);
+}
+.hero-text {
+    border: 3px solid red;
+    border-radius: 20px 20px;
+    background-color: yellow;
+    height: 82px;
+    width: 200px;
+    position: absolute;
+    top: 557px;
+    right: 39%;
+    padding-top: 25px;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 2px 2px;
+}
+h2 {
+    margin-top: 83px;
+    text-align: center;
+    background-color: rgb(9, 61, 109, 0.5);
+    height: 70px;
+    width: 100%;
+    padding-top: 25px;
+    border-radius: 8px 8px;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    
+}
+.col-container {
+    height: 518px;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    box-shadow: 3px 3px;
+}
+.col-container p {
+    text-align: justify;
+    padding: 20px;
+}
+.column {
+    height: 500px;
+    width: 45%;
+    border: 3px solid yellow;
+    position: absolute;
+}
+.one {
+    left: 0;
+}
+.two {
+    right: 0;
+}
+.col-img {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(9, 61, 109, 0.5);
+    clear: left;
+}
+.footer-col {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.submit-button, .submit, .fab {
+    margin-top: 12px;
+}
+.fa-facebook-square {
+    color: #3b5998;
+}
+.fa-instagram {
+    color: #fb3958;	
+}
+.map, .form {
+    margin-bottom: 20px;
+}
